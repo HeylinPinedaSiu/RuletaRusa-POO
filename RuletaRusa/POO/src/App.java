@@ -1,5 +1,23 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+        Juego juego = new Juego(6);
+
+        //mientras no termine el juego
+
+        
+        
+        while(!juego.FinDelJuego()){
+            juego.Ronda();
+            
+           
+
+            
+            
+            
+        }
+        System.out.println("El juego ha acabado");
+        
+    
     }
 }
